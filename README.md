@@ -37,11 +37,11 @@ bin/kafka-server-start.sh config/server.properties
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic assignment-input
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic assignment-output
 
-3. Start Listener: \n
+3. Start Listener:
 export PYTHONPATH="${PYTHONPATH}:$PROJECT_HOME"
 python3 src/algorithm/listener.py
 
-4. Start Service: \n
+4. Start Service:
 export PYTHONPATH="${PYTHONPATH}:$PROJECT_HOME"
 python3 src/service/service.py
 
