@@ -9,9 +9,8 @@ pip install tensorflow-gpu
 
 2. Kafka
 Download the latest Kafka release (https://www.apache.org/dyn/closer.cgi?path=/kafka/2.7.0/kafka_2.13-2.7.0.tgz) and extract it:
-
-$ tar -xzf kafka_2.13-2.7.0.tgz
-$ cd kafka_2.13-2.7.0
+tar -xzf kafka_2.13-2.7.0.tgz
+cd kafka_2.13-2.7.0
 
 3. Python opencv
 https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html
